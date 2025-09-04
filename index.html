@@ -1,119 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Argema Studio - Spa & Wellness</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-professional.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="profile-section">
-                <div class="profile-image">
-                    <img src="logoArgema.png" alt="Argema Studio Logo" class="logo">
-                </div>
-                <h1 class="name">Argema Studio</h1>
-                <p class="tagline">Bienvenidos • Spa & Wellness • Costa Rica</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logoArgema.png" alt="Argema Studio" class="nav-logo-img">
+                <span class="nav-brand">Argema Studio</span>
             </div>
-        </header>
+            <div class="nav-links">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- About Section -->
-            <section class="section">
-                <h2><i class="fas fa-spa"></i> Sobre Nosotros</h2>
-                <p>Bienvenidos a Argema Studio, su oasis de relajación y bienestar en Costa Rica. Ofrecemos tratamientos de spa de primera calidad para rejuvenecer su cuerpo, mente y espíritu en un ambiente tranquilo y acogedor.</p>
-                <p>Somos un equipo totalmente comprometido con brindarle la mejor experiencia.</p>
-            </section>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="logoArgema.png" alt="Argema Studio Logo" class="hero-logo-img">
+                </div>
+                <h1 class="hero-title">Argema Studio</h1>
+                <p class="hero-subtitle">Su Oasis de Bienestar en Costa Rica</p>
+                <p class="hero-description">Tratamientos de spa de primera calidad para rejuvenecer su cuerpo, mente y espíritu en un ambiente tranquilo y acogedor.</p>
+                <a href="#servicios" class="cta-button">Ver Servicios</a>
+            </div>
+        </div>
+    </section>
 
-            <!-- Services Section -->
-            <section class="section">
-                <h2><i class="fas fa-star"></i> Nuestros Servicios</h2>
-                <p>Equipo experimentado y con mucha pasión. En Argema Studio tendrá las últimas tendencias en spa, cuidado de la piel, tratamientos faciales y otros servicios.</p>
-                <div class="interests-grid">
-                    <div class="interest-item">
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p>Equipo experimentado y con mucha pasión. Las últimas tendencias en spa, cuidado de la piel y tratamientos faciales.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-hands"></i>
-                        <span>Masaje Relajante</span>
                     </div>
-                    <div class="interest-item">
+                    <h3>Masaje Relajante</h3>
+                    <p>Relajación profunda para aliviar el estrés y tensiones musculares.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-leaf"></i>
-                        <span>Limpieza Facial</span>
                     </div>
-                    <div class="interest-item">
+                    <h3>Limpieza Facial</h3>
+                    <p>Tratamiento profundo para limpiar y purificar la piel.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-hot-tub"></i>
-                        <span>Tratamiento Corporal</span>
                     </div>
-                    <div class="interest-item">
+                    <h3>Tratamiento Corporal</h3>
+                    <p>Rejuvenecimiento y tonificación del cuerpo completo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-tint"></i>
-                        <span>Facial Hidratante</span>
                     </div>
-                    <div class="interest-item">
+                    <h3>Facial Hidratante</h3>
+                    <p>Hidratación profunda para una piel radiante y saludable.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-user-md"></i>
-                        <span>Masaje Terapéutico</span>
                     </div>
-                    <div class="interest-item">
+                    <h3>Masaje Terapéutico</h3>
+                    <p>Tratamiento especializado para aliviar dolores específicos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-gem"></i>
-                        <span>Tratamiento Anti-Aging</span>
+                    </div>
+                    <h3>Tratamiento Anti-Aging</h3>
+                    <p>Técnicas avanzadas para rejuvenecer y revitalizar la piel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nosotros</h2>
+                    <p>Somos un equipo totalmente comprometido con brindarle la mejor experiencia. En nuestro equipo creemos en el mejoramiento natural de la belleza de cada persona a través de tratamientos y servicios de estética no invasiva y spa, en un ambiente relajado y una constante actualización en lo último en las tendencias de belleza.</p>
+                    <p>Nos sentimos orgullosos de contar con un equipo de trabajo feliz y agradecido, apasionados por su trabajo. Su calidad humana, valores y principios garantizan una cálida atención y su satisfacción.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <i class="fas fa-spa"></i>
                     </div>
                 </div>
-            </section>
-
-            <!-- Passion Section -->
-            <section class="section">
-                <h2><i class="fas fa-seedling"></i> Pasión y Propósito</h2>
-                <p>En nuestro equipo creemos en el mejoramiento natural de la belleza de cada persona a través de tratamientos y servicios de estética no invasiva y spa, en un ambiente relajado y una constante actualización en lo último en las tendencias de belleza.</p>
-            </section>
-
-            <!-- Location Section -->
-            <section class="section">
-                <h2><i class="fas fa-map-marker-alt"></i> Nuestra Ubicación</h2>
-                <p>Ubicados en el hermoso país de Costa Rica, Argema Studio ofrece un escape perfecto del estrés diario. Nuestro estudio está diseñado para crear una experiencia de spa auténtica y relajante en el corazón de la naturaleza.</p>
-                <p><strong>Ubicación:</strong><br>
-                Centro Comercial Loma Real local 10<br>
-                Guachipelin, Escazú, Costa Rica</p>
-            </section>
-
-            <!-- Team Section -->
-            <section class="section">
-                <h2><i class="fas fa-users"></i> Nuestro Equipo</h2>
-                <p>Nos sentimos orgullosos de contar con un equipo de trabajo feliz y agradecido, apasionados por su trabajo. Su calidad humana, valores y principios garantizan una cálida atención y su satisfacción.</p>
-            </section>
-
-            <!-- Schedule Section -->
-            <section class="section">
-                <h2><i class="fas fa-clock"></i> Horarios de Atención</h2>
-                <div class="schedule-info">
-                    <p><strong>Lunes:</strong> 1:00 PM - 7:00 PM</p>
-                    <p><strong>Martes a Viernes:</strong> 9:00 AM - 7:00 PM</p>
-                    <p><strong>Sábado:</strong> 8:00 AM - 5:00 PM</p>
-                </div>
-            </section>
-
-            <!-- Contact Section -->
-            <section class="section">
-                <h2><i class="fas fa-envelope"></i> Contáctenos</h2>
-                <div class="contact-info">
-                    <p><i class="fas fa-phone"></i> Teléfono: +506 2537-9361</p>
-                    <p><i class="fas fa-envelope"></i> Email: info@argemastudiocr.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Ubicación: Costa Rica</p>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-logo">
-                <img src="logoArgema.png" alt="Argema Studio Logo" class="footer-logo-img">
             </div>
-            <p>Argema Studio - Bienestar y Relajación</p>
-            <p>Argema Studio© Copyright 2025 | <a href="#" class="privacy-link">Política de Privacidad</a></p>
-            <p class="footer-note">Última actualización: <span id="last-updated"></span></p>
-        </footer>
-    </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Ubicación</h3>
+                    <p>Centro Comercial Loma Real local 10<br>Guachipelin, Escazú, Costa Rica</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horarios</h3>
+                    <p><strong>Lunes:</strong> 1:00 PM - 7:00 PM<br>
+                    <strong>Martes a Viernes:</strong> 9:00 AM - 7:00 PM<br>
+                    <strong>Sábado:</strong> 8:00 AM - 5:00 PM</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Contacto</h3>
+                    <p><strong>Teléfono:</strong> +506 2537-9361<br>
+                    <strong>Email:</strong> info@argemastudiocr.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logoArgema.png" alt="Argema Studio" class="footer-logo-img">
+                    <p>Argema Studio© Copyright 2025</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Política de Privacidad</a>
+                    <a href="#" class="footer-link">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
