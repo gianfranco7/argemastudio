@@ -410,21 +410,40 @@ body {
 
 /* Remove link underline from service cards */
 .service-card {
-    text-decoration: none;
+    text-decoration: none !important;
     color: inherit; /* Keep normal text color */
     display: block; /* Ensure the whole card is clickable */
     border-radius: 12px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+    outline: none;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-    text-decoration: none; /* extra safety */
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.service-card:focus {
+    text-decoration: none !important;
+    outline: none;
+}
+
+.service-card:visited {
+    text-decoration: none !important;
+    color: inherit;
 }
 
 .service-card h3,
 .service-card p {
-    text-decoration: none;
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.service-card h3:hover,
+.service-card p:hover {
+    text-decoration: none !important;
     color: inherit;
 }
