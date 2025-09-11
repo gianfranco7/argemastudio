@@ -406,3 +406,25 @@ body {
         padding: 30px 20px;
     }
 }
+
+
+/* Remove link underline from service cards */
+.service-card {
+    text-decoration: none;
+    color: inherit; /* Keep normal text color */
+    display: block; /* Ensure the whole card is clickable */
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-decoration: none; /* extra safety */
+}
+
+.service-card h3,
+.service-card p {
+    text-decoration: none;
+    color: inherit;
+}
