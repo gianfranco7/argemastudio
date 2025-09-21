@@ -1,0 +1,12 @@
+{
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Radian C Firming Body Cream",
+            "description": "Crema corporal con Vitamina C y Antioxidantes. Con una textura ideal para la piel del cuerpo y activos que ayudan a mejorar la formación de colágeno para otorgar mayor firmeza. Contribuyen a atenuar manchas porque disminuyen la producción de melanina. Los antioxidantes colaboran para inhibir la formación de radicales libres.",
+            "price": 24860,
+            "image_uri": "https://www.lidherma.com/thumbnails/lidherma_radian_c_firming_body_cream1_450xauto.jpg"
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Argema Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logoArgema.png" alt="Argema Studio" class="nav-logo-img">
+                <span class="nav-brand">Argema Studio</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html#inicio" class="nav-link">Inicio</a>
+                <a href="index.html#servicios" class="nav-link">Servicios</a>
+                <a href="productos.html" class="nav-link active">Productos</a>
+                <a href="index.html#nosotros" class="nav-link">Nosotros</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Hero Section -->
+    <section class="products-hero">
+        <div class="container">
+            <div class="section-header">
+                <h1>Nuestros Productos</h1>
+                <p>Productos de alta calidad para el cuidado de tu piel y bienestar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid">
+                <!-- Los productos se cargarán dinámicamente aquí -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logoArgema.png" alt="Argema Studio" class="footer-logo-img">
+                    <p>Argema Studio© Copyright 2025</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Política de Privacidad</a>
+                    <a href="#" class="footer-link">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/50684558003" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Función para cargar productos desde el archivo JSON
+        async function loadProducts() {
+            const productsGrid = document.getElementById('products-grid');
+            
+            try {
+                console.log('Iniciando carga de productos...');
+                console.log('Intentando cargar desde: productos/products.json');
+                
+                const response = await fetch('productos/products.json');
+                console.log('Respuesta recibida:', response);
+                console.log('Status:', response.status);
+                console.log('OK:', response.ok);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} - ${response.statusText}`);
+                }
+                
+                console.log('Parseando JSON...');
+                const productsData = await response.json();
+                console.log('Datos parseados:', productsData);
+                
+                // Limpiar contenido existente
+                productsGrid.innerHTML = '';
+                
+                if (productsData.products && productsData.products.length > 0) {
+                    console.log(`Cargando ${productsData.products.length} productos...`);
+                    productsData.products.forEach((product, index) => {
+                        console.log(`Creando tarjeta para producto ${index + 1}:`, product.name);
+                        const productCard = createProductCard(product);
+                        productsGrid.appendChild(productCard);
+                    });
+                    console.log('Productos cargados exitosamente');
+                } else {
+                    console.log('No hay productos en los datos o el array está vacío');
+                    productsGrid.innerHTML = 
+                        '<p style="text-align: center; color: #666; padding: 40px;">No hay productos disponibles en este momento.</p>';
+                }
+            } catch (error) {
+                console.error('Error detallado cargando productos:', error);
+                console.error('Tipo de error:', error.name);
+                console.error('Mensaje de error:', error.message);
+                console.error('Stack trace:', error.stack);
+                
+                // Mostrar mensaje de error más específico
+                let errorMessage = 'Error cargando productos. ';
+                if (error.name === 'TypeError' && error.message.includes('fetch')) {
+                    errorMessage += 'Error de red: No se pudo conectar al servidor.';
+                } else if (error.message.includes('HTTP error')) {
+                    errorMessage += `Error HTTP: ${error.message}`;
+                } else if (error.name === 'SyntaxError') {
+                    errorMessage += 'Error de formato: El archivo JSON tiene formato inválido.';
+                } else {
+                    errorMessage += `Error: ${error.message}`;
+                }
+                
+                productsGrid.innerHTML = 
+                    `<div style="text-align: center; color: #d32f2f; padding: 40px; background: #ffebee; border-radius: 10px; margin: 20px;">
+                        <h3>Error al cargar productos</h3>
+                        <p>${errorMessage}</p>
+                        <p style="font-size: 0.9rem; margin-top: 10px;">Revisa la consola del navegador para más detalles.</p>
+                    </div>`;
+            }
+        }
+
+        // Función para crear tarjeta de producto
+        function createProductCard(product) {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            
+            // Formatear precio
+            const formattedPrice = new Intl.NumberFormat('es-CR', {
+                style: 'currency',
+                currency: 'CRC'
+            }).format(product.price);
+            
+            // Crear mensaje para WhatsApp
+            const whatsappMessage = encodeURIComponent(
+                `¡Hola! Deseo comprar este producto:\n\n` +
+                `*${product.name}* (ID: ${product.id})\n\n` +
+                `Precio: ${formattedPrice}\n\n` +
+                `¿Podrían ayudarme con más información?`
+            );
+            
+            card.innerHTML = `
+                <div class="product-image">
+                    <img src="${product.image_uri}" alt="${product.name}" loading="lazy">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">${product.name}</h3>
+                    <p class="product-description">${product.description}</p>
+                    <div class="product-price">${formattedPrice}</div>
+                    <a href="https://wa.me/50684558003?text=${whatsappMessage}" 
+                       target="_blank" 
+                       class="whatsapp-product-button">
+                        <i class="fab fa-whatsapp"></i>
+                        Pedir por WhatsApp
+                    </a>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        // Cargar productos cuando se carga la página
+        document.addEventListener('DOMContentLoaded', loadProducts);
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
