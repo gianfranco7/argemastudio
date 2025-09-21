@@ -236,5 +236,27 @@
     </a>
 
     <script src="script.js"></script>
+    
+    <!-- Debug hamburger menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+            
+            console.log('Hamburger element:', hamburger);
+            console.log('Nav links element:', navLinks);
+            
+            if (hamburger && navLinks) {
+                console.log('Adding hamburger event listener');
+                hamburger.addEventListener('click', function() {
+                    console.log('Hamburger clicked!');
+                    hamburger.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+            } else {
+                console.error('Hamburger or nav-links element not found!');
+            }
+        });
+    </script>
 </body>
 </html>

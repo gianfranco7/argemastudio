@@ -177,6 +177,50 @@
 
         // Cargar productos cuando se carga la página
         document.addEventListener('DOMContentLoaded', loadProducts);
+        
+        // Mobile hamburger menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+            
+            console.log('Hamburger element:', hamburger);
+            console.log('Nav links element:', navLinks);
+            
+            if (hamburger && navLinks) {
+                console.log('Adding hamburger event listener');
+                hamburger.addEventListener('click', function() {
+                    console.log('Hamburger clicked!');
+                    hamburger.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+                
+                // Close menu when clicking on a link
+                navLinks.addEventListener('click', function(e) {
+                    if (e.target.classList.contains('nav-link')) {
+                        hamburger.classList.remove('active');
+                        navLinks.classList.remove('active');
+                    }
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                        hamburger.classList.remove('active');
+                        navLinks.classList.remove('active');
+                    }
+                });
+                
+                // Close menu on window resize (if resizing to desktop)
+                window.addEventListener('resize', function() {
+                    if (window.innerWidth > 768) {
+                        hamburger.classList.remove('active');
+                        navLinks.classList.remove('active');
+                    }
+                });
+            } else {
+                console.error('Hamburger or nav-links element not found!');
+            }
+        });
     </script>
 
     <script src="script.js"></script>
