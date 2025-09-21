@@ -7,6 +7,20 @@
             "description": "Crema corporal con Vitamina C y Antioxidantes. Con una textura ideal para la piel del cuerpo y activos que ayudan a mejorar la formación de colágeno para otorgar mayor firmeza. Contribuyen a atenuar manchas porque disminuyen la producción de melanina. Los antioxidantes colaboran para inhibir la formación de radicales libres.",
             "price": 24860,
             "image_uri": "https://www.lidherma.com/thumbnails/lidherma_radian_c_firming_body_cream1_450xauto.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Multivit Glow - El poder de las superfrutas",
+            "description": "El poder de las vitaminas sobre la piel está universalmente reconocido en el cuidado facial: son esenciales para la salud y la belleza de la piel. El NUEVO Multivit Glow conserva los ingredientes principales de su predecesor Multivit con Vitamina C estabilizada, Vitamina B3 (niacinamida) y Vitamina E. Además, el nuevo Multivit Glow incorpora una vitamina crucial para ayudar a iluminar y calmar: la Vitamina B12, muy valorada por la comunidad vegana. Multivit Glow es ahora más eficaz que nunca. Está formulado con más del 90% de ingredientes de origen natural de acuerdo con la Norma ISO 16128, que establece qué tan natural es un producto de cuidado de la piel. Apto para VEGANOS, sin ingredientes de origen animal. Sin colorantes artificiales. Dermatológicamente probado en pieles sensibles.",
+            "price": 31640,
+            "image_uri": "./productos/ainhoa-luminosity-multiglow.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Sorrento Bloqueador Solar SPF 50",
+            "description": "BLOQUEADOR SOLAR 50 para rostro y cuerpo, con textura suave y aterciopelada, de alto espectro UVA-UVB y resistente al agua. Protege la piel mientras garantiza un bronceado luminoso, uniforme y más duradero. SORRENTO cuenta con la innovadora fórmula Sea & Skin Friendly, libre de siliconas, petrolatos e ingredientes dañinos para la piel y el ecosistema marino, ofreciendo máxima protección con respeto al medio ambiente. Su extraordinaria acción antioxidante e hidratante se debe a Hydropuntil, principio activo derivado de las hojas de Tuna (Higo chumbo) de origen siciliano.",
+            "price": 24860,
+            "image_uri": "./productos/gerards-sorrento-img.jpg"
         }
     ]
 }
