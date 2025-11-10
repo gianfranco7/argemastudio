@@ -21,6 +21,53 @@
             "description": "BLOQUEADOR SOLAR 50 para rostro y cuerpo, con textura suave y aterciopelada, de alto espectro UVA-UVB y resistente al agua. Protege la piel mientras garantiza un bronceado luminoso, uniforme y más duradero. SORRENTO cuenta con la innovadora fórmula Sea & Skin Friendly, libre de siliconas, petrolatos e ingredientes dañinos para la piel y el ecosistema marino, ofreciendo máxima protección con respeto al medio ambiente. Su extraordinaria acción antioxidante e hidratante se debe a Hydropuntil, principio activo derivado de las hojas de Tuna (Higo chumbo) de origen siciliano.",
             "price": 24860,
             "image_uri": "./productos/gerards-sorrento-img.jpg"
+        },
+        {
+            "id": 4,
+            "name": "AlfaParf Benvoleo Nutri Care Oil",
+            "description": "El toque final pre y post cepillado para un look perfecto. Este aceite es la teja, formulado con ecosiliconas que nutren y dan un brillo increíble sin apelmazar, ideal para pelo seco. Usalo antes de secar, como acabado de brillo y suavidad, o como tratamiento nocturno o pre-champú para un boost intenso de nutrición.",
+            "price": 20000,
+            "image_uri": "https://www.alfaparfmilanopro.com/sites/default/files/styles/large/public/media-image-p/Benvoleo_Nutri_Care_Oil_PF023817_02.png.webp?itok=bWwZapfg"
+
+        },
+        {
+            "id": 5,
+            "name": "Keyra Champú PH Ácido con Keratina",
+            "description": "El Champú PH Ácido es un básico al finalizar un proceso de tinción o decoloración. Regula el PH natural, limpia suavemente el cabello y neutraliza los residuos alcalinos de los químicos. Formulado con Hidrolizado de Queratina para reconstruir la estructura y acondicionadores que aportan suavidad, luminosidad y sedosidad, con tenso-activos suaves para el máximo cuidado.",
+            "price": 9500,
+            "image_uri": "https://keyracolors.com/wp-content/uploads/2024/05/4652_CHAMPU-PH-KEYRA-1L-630x1030.png"
+
+        },
+        {
+            "id": 6,
+            "name": "Wet Brush Paddle Detangler Cepillo Desenredante",
+            "description": "Te presentamos el WetBrush Feel Good Paddle Detangler Green. Ideal para aplicar mascarillas y tratamientos gracias a su área un 20% más grande y diseño ventilado que evita la acumulación de producto. Limpiarlo es súper fácil, solo enjuágalo. Además, desenreda sin esfuerzo con sus cerdas IntelliFlex ultra-suaves que se deslizan sin tirones ni roturas. ¡Siente el look con esta edición ombre limitada!",
+            "price": 15000,
+            "image_uri": "https://www.i-glamour.com/images/ProductImages/500/104440.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Gerard's Re-White Age Control Cream SPF 50 Anti Age",
+            "description": "Este tratamiento revolucionario y suave es multi-activo contra las manchas, ofreciendo acciones antienvejecimiento, antioxidantes y unificadoras. Ideal para pieles maduras o expuestas a climas soleados, trabaja reduciendo la intensidad y el tamaño de las manchas e hiper-pigmentación para un efecto anti-manchas e iluminador natural.",
+            "price": 48000,
+            "image_uri": "https://www.gerards.it/cdn/shop/products/crema-viso-antimacchia-rewhite-gerards.jpg?v=1668612110&width=600"
+
+        },
+        {
+            "id": 8,
+            "name": "Gerard's Pepper Scrub Body con sal del Mar Muerto",
+            "description": "Exfoliante de aromaterapia con fragancias de Provenza. Gracias a la acción suavizante del Monoï de Tiaré, combinado con la Naranja dulce, devuelve una belleza nueva y natural al cuerpo con una acción profunda, vigorizante y alisadora.",
+            "price": 25000,
+            "image_uri": "https://www.gerards.it/cdn/shop/products/scrub-aromaterapico-pepper-gerards.jpg?v=1668611456&width=600"
+
+        },
+        {
+            "id": 9,
+            "name": "Germaine de Capuccini Purexpert espuma, gel y esencia refinadora purificante matificante",
+            "description": "Tres pasos imprescindibles y adecuados a tu tipo de piel. Consigue una piel más pura, mate, uniforme y protegida frente a las agresiones diarias.",
+            "price": 35000,
+            "image_uri": "https://www.germainedecapuccini.com/media/catalog/product/0/0/00440099_1.jpg?quality=80&height=700&width=700&canvas=700:700"
+
         }
     ]
 }
