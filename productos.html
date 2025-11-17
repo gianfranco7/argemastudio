@@ -146,6 +146,8 @@
                 style: 'currency',
                 currency: 'CRC'
             }).format(product.price);
+
+            
             
             // Crear mensaje para WhatsApp
             const whatsappMessage = encodeURIComponent(
@@ -162,7 +164,7 @@
                 <div class="product-info">
                     <h3 class="product-title">${product.name}</h3>
                     <p class="product-description">${product.description}</p>
-                    <div class="product-price">${formattedPrice}</div>
+                    <div class="product-price">${formattedPrice} <span style="font-size: 0.9rem; color: #555;">+ I.V.A.</span></div>
                     <a href="https://wa.me/50684558003?text=${whatsappMessage}" 
                        target="_blank" 
                        class="whatsapp-product-button">
