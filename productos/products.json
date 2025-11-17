@@ -67,7 +67,20 @@
             "description": "Tres pasos imprescindibles y adecuados a tu tipo de piel. Consigue una piel más pura, mate, uniforme y protegida frente a las agresiones diarias.",
             "price": 35000,
             "image_uri": "https://www.germainedecapuccini.com/media/catalog/product/0/0/00440099_1.jpg?quality=80&height=700&width=700&canvas=700:700"
-
-        }
+        },
+        {
+            "id": 10,
+            "name": "Sérum Hidratante de Ácido Hialurónico",
+            "description": "Un básico en cualquier rutina de belleza para aportar la hidratación necesaria a las diferentes capas de la piel. Su fórmula mejorada con Ácido Hialurónico vegano de alto y muy bajo peso molecular hidrata en profundidad, mejorando el aspecto global de la piel. Su textura ligera lo convierte en un paso imprescindible para aplicarlo antes de la crema o emulsión y conseguir el tan deseado aspecto superhidratado en el rostro. Además, no contiene perfume. Dermatológicamente testado en pieles sensibles. 99% de ingredientes de origen natural. Apto para veganos.",
+            "price": 38000,
+            "image_uri": "https://www.ainhoacosmetics.com/wp-content/uploads/2023/05/R7002-Hydrating-Hyaluronic-Acid-Serum-50-ml_Box.png"
+        },
+        {
+            "id": 11,
+            "name": "",
+            "description": "EL PRODUCTO El Tratamiento 12 en 1 de Keyra es una fusión de ingredientes formulado a base de Aceite de Camelia y Queratina que aporta al cabello 12 beneficios increíbles con efecto inmediato. BENEFICIOS DEL PRODUCTO Este tratamiento aporta al cabello: Nutrición, Hidratación, Acondicionamiento, Reparación de las puntas abiertas, Efecto anti-encrespamiento, Protección térmica, Protección del color frente a los rayos UVA/UVB, Peinabilidad, Brillo, Volumen y cuerpo, Suavidad, Sedosidad. Estos efectos sobre el cabello y el cuero cabelludo se dan gracias a la combinación de todos sus ingredientes y de sus principios activos como: Aceite Vegetal de Camelia: Aporta y proporciona al cabello brillo y acondicionamiento. Queratina: Este componente hidrata y repara el cabello, aportando un efecto antiencrespamiento y mejorando su peinado.",
+            "price": 9000,
+            "image_uri": "https://keyracolors.com/wp-content/uploads/2022/11/12-en-1-600.jpg"
+        }        
     ]
 }
