@@ -77,10 +77,73 @@
         },
         {
             "id": 11,
-            "name": "",
-            "description": "EL PRODUCTO El Tratamiento 12 en 1 de Keyra es una fusión de ingredientes formulado a base de Aceite de Camelia y Queratina que aporta al cabello 12 beneficios increíbles con efecto inmediato. BENEFICIOS DEL PRODUCTO Este tratamiento aporta al cabello: Nutrición, Hidratación, Acondicionamiento, Reparación de las puntas abiertas, Efecto anti-encrespamiento, Protección térmica, Protección del color frente a los rayos UVA/UVB, Peinabilidad, Brillo, Volumen y cuerpo, Suavidad, Sedosidad. Estos efectos sobre el cabello y el cuero cabelludo se dan gracias a la combinación de todos sus ingredientes y de sus principios activos como: Aceite Vegetal de Camelia: Aporta y proporciona al cabello brillo y acondicionamiento. Queratina: Este componente hidrata y repara el cabello, aportando un efecto antiencrespamiento y mejorando su peinado.",
+            "name": "Keyra Beauty  12 en 1 Tratamiento sin enjuagado",
+            "description": "El Tratamiento 12 en 1 de Keyra es una fusión de ingredientes formulado a base de Aceite de Camelia y Queratina que aporta al cabello 12 beneficios increíbles con efecto inmediato. BENEFICIOS DEL PRODUCTO Este tratamiento aporta al cabello: Nutrición, Hidratación, Acondicionamiento, Reparación de las puntas abiertas, Efecto anti-encrespamiento, Protección térmica, Protección del color frente a los rayos UVA/UVB, Peinabilidad, Brillo, Volumen y cuerpo, Suavidad, Sedosidad. Estos efectos sobre el cabello y el cuero cabelludo se dan gracias a la combinación de todos sus ingredientes y de sus principios activos como: Aceite Vegetal de Camelia: Aporta y proporciona al cabello brillo y acondicionamiento. Queratina: Este componente hidrata y repara el cabello, aportando un efecto antiencrespamiento y mejorando su peinado.",
             "price": 9000,
             "image_uri": "https://keyracolors.com/wp-content/uploads/2022/11/12-en-1-600.jpg"
-        }        
+        },
+        {
+            "id": 12,
+            "name": "Germaine de Cappuccini LegginSlim Perfect Forms",
+            "description": "Tratamiento con 3 acciones específicas ideal para ocasiones en las que se necesita obtener resultados rápidos y efectivos o como coadyuvante en los tratamientos anticelulíticos. Favorece el drenaje y la eliminación de toxinas a la vez que aporta una acción reafirmante a la piel. Inspirado en los tratamientos profesionales para realizar desde casa proporcionando una auténtica acción de choque. Los leggings transportan los principios activos a las zonas tratadas incrementando su acción y proporcionan un agradable masaje de compresión que favorece la microcirculación.",
+            "price": 25000,
+            "image_uri": "https://xeniaestetica.com/1197-medium_default/perfect-forms-legginslim.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Nº2 Rellenador de Enlaces",
+            "description": "Bond Filler es un tratamiento concentrado que estabiliza los enlaces después del tratamiento con PlexForte Nº1 (Bond Booster). No solo estabiliza el aumento de fuerza, sino que también nutre con aminoácidos esenciales y sella la estructura para asegurar una mayor duración del proceso técnico. Usa Bond Filler como mantenimiento en casa para crear nuevos enlaces entre proteínas que fortalecen y protegen el interior de la estructura capilar (o córtex), garantizando así una mayor duración del proceso técnico. Repara y nutre profundamente la fibra capilar en cabellos dañados, rejuveneciendo su apariencia desde la primera aplicación. TECNOLOGÍA: Aporta fuerza a la fibra capilar. Repara el cabello dañado. Protección térmica. Aporta cuerpo y volumen. Preserva el color. Controla el encrespamiento. Protege del cepillado y planchado. Previene las puntas abiertas. Contiene filtro solar. Nutre profundamente.",
+            "price": 30000,
+            "image_uri": "https://lendan.com/wp-content/uploads/2017/10/PASO2_PLEXFORTE_BOND-FILLER_200ml_1114004.png"
+        },
+        {
+            "id": 14,
+            "name": "Pack Purity Fluido + Mini Tallas",
+            "description": "Un pack diseñado para tratar y cuidar las pieles grasas y seborreicas de forma completa y eficaz. La combinación de sus productos limpia, regula y equilibra, proporcionando un acabado mate, suave y saludable. Ideal para controlar brillos, imperfecciones y mantener la piel fresca y purificada día tras día. 1. Fluido Purificante (50 ml): Fluido facial ligero que regula la secreción sebácea y ayuda a cerrar los poros. Proporciona una agradable sensación de frescor con acabado no graso. 94 % ingredientes de origen natural. Apto para veganos. Dermatológicamente testado. 2. Máscara Facial Purificante – Mini talla: Mascarilla purificante que corrige, normaliza y elimina el exceso de grasa, manteniendo la hidratación y devolviendo al rostro un aspecto mate y uniforme. 95 % ingredientes de origen natural. Apta para veganos. 3. Tónico Facial Purificante – Mini talla (30 ml): Tónico calmante y astringente que completa la limpieza facial, elimina impurezas y aporta una sensación refrescante. Libre de aceites y sin perfume. Dermatológicamente testado. 4. Gel Limpiador Purificante – Mini talla (50 ml): Limpia profundamente sin resecar gracias a su fórmula sin jabón. Deja la piel libre de brillos e impurezas. Sin perfume ni aceites. Dermatológicamente testado.",
+            "price": 45000,
+            "image_uri": "https://www.ainhoacosmetics.com/wp-content/uploads/2025/05/Diseno-sin-titulo-3.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Máscara reparadora Alfaparf Semi de Lino professional reconstruction",
+            "description": "Mascarilla reestructurante para cabellos dañados",
+            "price": 22000,
+            "image_uri": "https://www.alfaparfmilanopro.com/sites/default/files/styles/large/public/media-image-p/SEMI_DI_LINO_Reconstruction_ReparativeMask_PF025123_01.png.webp?itok=5HmCgCKV"
+        },
+        {
+            "id": 16,
+            "name": "Alfaparf Milano Semi Di Lino Scalp Renew Low Shampoo para adelgazar el cabello",
+            "description": "Alfaparf Milano Semi Di Lino cuero cabelludo renovar bajo champú para adelgazar el cabello: Fortalece, reensifica, estimula. Semi Di Lino Renew Energizing Low Shampoo se recomienda para adelgazar el cabello y el cabello debilitado. El champú libre de sulfatos limpia suavemente y da vitalidad a la fibra capilar sin apelmazarla. El champú adelgazante para el cabello es adecuado para el uso diario y libre de parafinas, parabenos y aceites minerales. La espuma rica y cremosa funciona en el cuero cabelludo y da una agradable sensación de frescura.",
+            "price": 16500,
+            "image_uri": "https://m.media-amazon.com/images/I/61IPJ5QzpoL._SL1500_.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Ainhoa Emulsión Facial Alta Protección SPF50",
+            "description": "Emulsión solar facial con factor de protección SPF50: Un efecto hidratante de protección ante la Radiación UVA, Radiación UVB, Luz Azul y Contaminación Urbana. Tu piel protegida los 365 días del año gracias al cuidado diario de alta protección solar de la piel que ayuda a minimizar la aparición de los radicales libres, reduciendo el fotoenvejecimiento. Defiende diariamente tu piel de las agresiones ambientales con su escudo anti-polución y protege la piel de la contaminación digital. La emulsión solar facial de alta protección cuenta con múltiples ventajas para tu piel, como su textura muy ligera y de fácil absorción, no deja ningún residuo blanco, es apta para veganos y libre de aceites, además no cuenta con perfumes y tiene un efecto Soft Focus que difumina al instante arrugas e imperfecciones de la piel. Dermatológica y oftalmológicamente testado.",
+            "price": 22000,
+            "image_uri": "https://www.ainhoacosmetics.com/wp-content/uploads/2022/05/R82013NN-SKIN-PRIMERS-Emulsion-Facial-Alta-Proteccion-spf50.png"
+        },
+        {
+            "id": 18,
+            "name": "MCCM Sun Cream SPF 50",
+            "description": "La Crema Solar SPF 50 contiene ingredientes que ayudan a proteger la piel de los efectos de la exposición solar para mantener la apariencia de la piel, contribuyendo a reducir la formación de manchas e imperfecciones.",
+            "price": 22000,
+            "image_uri": "https://mccmmedicalcosmetics.com/cdn/shop/products/0359-SUN-CREAM-50.jpg?v=1754652828&width=850"
+        },
+        {
+            "id": 19,
+            "name": "Crema Ainhoa vegana con colágeno plus edición limitada",
+            "description": "Crema facial antiedad con acción reafirmante y potente efecto rellenador que combate la pérdida de firmeza y volumen facial causada por el paso del tiempo. Su cuidada fórmula se basa en una combinación de ingredientes activos clave para la piel, que trabajan al unísono para restaurar la armonía del rostro y dar forma al óvalo facial. Ingredientes principales: Colágeno Vegano. Extracto de Alaria Esculenta (eco-certificado, derivado de algas pardas). Matriz Lipídica de la Piel (regenera y reconstruye la barrera cutánea, previniendo la deshidratación).",
+            "price": 38000,
+            "image_uri": "https://beautyculturegroup.com/wp-content/uploads/2024/03/3358b273-2760-48f8-a00a-32af25347e1f.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Mascarilla Facial Vegan Collagen+ Ainhoa",
+            "description": "Actúa durante toda la noche para combatir la pérdida de firmeza y volumen facial debido al paso del tiempo. 100% sencilla y cómoda de usar, deja unas agradable sensación de confort tras su aplicación. Está formulada con un 94% de ingredientes de origen natural.",
+            "price": 38000,
+            "image_uri": "https://media.nidux.net/pull/700/700/14429/105-product-67d5b03a3a47c-r2260n-01.png"
+        }                             
     ]
 }
