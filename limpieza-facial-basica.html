@@ -47,6 +47,20 @@
             margin-bottom: 30px;
         }
         
+        /* Estilos para la imagen del servicio */
+        .service-image-container {
+            margin: 30px auto;
+            max-width: 100%;
+        }
+
+        .service-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+
         .service-description p {
             font-size: 1.1rem;
             color: #666;
@@ -73,7 +87,6 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -89,7 +102,6 @@
         </div>
     </nav>
 
-    <!-- Service Hero -->
     <section class="service-hero">
         <div class="container">
             <h1>Limpieza Facial Básica</h1>
@@ -97,11 +109,15 @@
         </div>
     </section>
 
-    <!-- Service Content -->
     <section class="service-content">
         <div class="container">
             <div class="service-description">
                 <h2>Descripción del Servicio</h2>
+
+                <div class="service-image-container">
+                    <img src="imagenes/limpieza_basica.png" alt="Limpieza Facial Básica" class="service-image">
+                </div>
+
                 <p>Nuestra limpieza facial básica es el tratamiento perfecto para mantener una piel saludable y radiante. Este servicio está diseñado para limpiar profundamente los poros, eliminar impurezas y preparar la piel para recibir los nutrientes necesarios.</p>
                 <p>El tratamiento incluye: limpieza profunda con productos suaves, tonificación para equilibrar el pH de la piel, hidratación básica y protección solar. Es ideal para todo tipo de piel y especialmente recomendado como mantenimiento regular.</p>
                 <p>Perfecto para quienes buscan un cuidado facial efectivo y accesible, manteniendo la salud y vitalidad de su piel con productos de alta calidad y técnicas profesionales.</p>
@@ -113,7 +129,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">

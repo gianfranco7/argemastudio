@@ -46,6 +46,20 @@
             color: var(--accent-color);
             margin-bottom: 30px;
         }
+
+        /* Estilos para la imagen del servicio */
+        .service-image-container {
+            margin: 30px auto;
+            max-width: 100%;
+        }
+
+        .service-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
         
         .service-description p {
             font-size: 1.1rem;
@@ -73,7 +87,6 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -89,7 +102,6 @@
         </div>
     </nav>
 
-    <!-- Service Hero -->
     <section class="service-hero">
         <div class="container">
             <h1>Limpieza Facial Profunda</h1>
@@ -97,11 +109,15 @@
         </div>
     </section>
 
-    <!-- Service Content -->
     <section class="service-content">
         <div class="container">
             <div class="service-description">
                 <h2>Descripción del Servicio</h2>
+
+                <div class="service-image-container">
+                    <img src="imagenes/limpieza_profunda.png" alt="Tratamiento de Limpieza Facial Profunda" class="service-image">
+                </div>
+
                 <p>Nuestra limpieza facial profunda es un tratamiento intensivo diseñado para purificar la piel desde las capas más profundas. Utilizamos técnicas avanzadas y productos especializados para eliminar impurezas, células muertas y toxinas acumuladas.</p>
                 <p>El tratamiento incluye: evaluación personalizada de la piel, limpieza profunda con productos especializados, exfoliación química o mecánica, extracción de comedones cuando sea necesario, mascarilla purificante, hidratación intensiva y protección solar. Ideal para pieles con problemas de acné, poros dilatados o impurezas.</p>
                 <p>Este tratamiento proporciona una limpieza completa que deja la piel renovada, suave y preparada para absorber mejor los productos de cuidado posteriores.</p>
@@ -113,7 +129,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
